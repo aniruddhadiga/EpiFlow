@@ -13,7 +13,7 @@ The EpiFlow workflow
     ```
    data_preprocessing_workflow.ipynb
     ```
-3. Signal Analysis Module - This module focuses on ($i$) determining the appropriate window length based on predictability, ($ii$) denoising, and ($iii$) the causal relationship between the time series. The necessary functions are provided in `viral_utils.py`. An example of the use of the functions in signal analysis workflow is provided in
+3. Signal Analysis Module - This module focuses on ($i$) denoising, ($ii$) determining the appropriate window length based on predictability, and ($iii$) the causal relationship between the time series. The necessary functions are provided in `viral_utils.py`. An example of the use of the functions in signal analysis workflow is provided in
    ```
    signal_analysis_workflow.ipynb
    ```
