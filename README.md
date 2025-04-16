@@ -3,6 +3,8 @@
 EpiFlow: Epidemic Predictive Intelligence Framework Leveraging Observables from Wastewater Surveillance
 
 The codebase contains scripts for preprocessing and extracting metrics from wastewater viral load datasets, and evaluating their utility in predicting various clinical and syndromic surveillance datasets. 
+![Pipeline](./images/EpiFlow.pdf?raw=true "Title")
+
 
 1. Data Preprocessing Module - This module primarily focuses on formatting time series data and ensuring temporal and spatial alignment across multiple datasets, facilitating accurate comparison. Key steps include data cleansing and harmonization of temporal and spatial dimensions. The necessary functions are provided in `viral_utils.py`. An example of the of the use of the functions in data preprocessing workflow is provided in
     ```
